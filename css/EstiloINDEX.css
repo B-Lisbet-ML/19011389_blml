@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Rock+3D&display=swap');
+
+/*-------------------MENU-------------------*/
+body.INDEXX {
+    margin: 0;
+    background-repeat: repeat;
+    background-image: url("../img/TG.jpg");
+}
+div.INDEXX{
+    padding:10px 50px;
+    color: rgb(255, 37, 146);
+    font-size: 20px;
+}
+h1.INDEXX{
+    font-family: 'Langar', cursive;
+    /*font-family: 'Rock 3D', cursive;*/
+        text-align: center;
+}
+/*-------------------MENU-------------------*/
+
+/*-------------------IMAGEN-------------------*/
+div.img{
+    text-align:center;
+}
+/*-------------------IMAGEN-------------------*/
+
+h2{
+    padding:0px 50px;
+    font-family: 'Rock 3D', cursive;
+    color: blueviolet;
+    text-align: right;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+    body.INDEXX {
+        /*background-color: rgb(173, 98, 157);*/
+        background-image: url("../img/TP.jpg"); 
+    }
+
+    div.INDEXX{
+        padding:10px 50px;
+        color: rgb(255, 225, 240);
+        font-size: 25px;
+    }
+}
